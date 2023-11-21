@@ -51,6 +51,11 @@ body{
     top: 10px;
 }
 
+.card:hover .heart{
+    color: red;
+}
+
+
 
 /* Header */
 header{
@@ -100,7 +105,8 @@ i{
     padding: 5px;
 }
 
-/* Body */
+/* Main */
+
 
 .card-container{
     min-width: 80%;
@@ -117,6 +123,11 @@ i{
 .card{
     margin-bottom: 80px;
     margin-top: 20px;
+    position: relative;
+}
+
+.card:hover.male-1{
+    background-image: url(./img/1b.webp);
 }
 
 .male-1{
@@ -126,11 +137,20 @@ i{
     position: relative;
 }
 
+
+.card:hover.male-2{
+    background-image: url(./img/4b.webp);
+}
+
 .male-2{
     background-image: url(./img/4.webp);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.card:hover.fmale-1{
+    background-image: url(./img/2b.webp);
 }
 
 .fmale-1{
@@ -140,11 +160,19 @@ i{
     position: relative;
 }
 
+.card:hover.fmale-2{
+    background-image: url(./img/3b.webp);
+}
+
 .fmale-2{
     background-image: url(./img/3.webp);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.card:hover.fmale-3{
+    background-image: url(./img/5b.webp);
 }
 
 .fmale-3{
@@ -153,6 +181,11 @@ i{
     background-size: cover;
     position: relative;
 }
+
+.card:hover.fmale-4{
+    background-image: url(./img/6b.webp);
+}
+
 
 .fmale-4{
     background-image: url(./img/6.webp);
@@ -187,6 +220,11 @@ i{
 }
 
 .esprit{
+    position: absolute;
+    bottom: -60px;
+}
+
+.p-absolute{
     position: absolute;
     bottom: -60px;
 }
