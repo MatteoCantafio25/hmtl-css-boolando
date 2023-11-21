@@ -80,8 +80,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 2px dashed black;
-    
 }
 
 img{
@@ -301,7 +299,6 @@ footer{
 }
 
 .boolando-container{
-    border: 2px dashed white;
     height: 60px;
     line-height: 25px;
 }
@@ -309,7 +306,6 @@ footer{
 .trovaci-container{
     height: 60px;
     color: white;
-    border: 2px dashed white;
     text-align: center;
 }
 
