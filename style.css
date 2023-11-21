@@ -51,7 +51,7 @@ body{
     top: 10px;
 }
 
-.card:hover .heart{
+.heart:hover{
     color: red;
 }
 
@@ -92,7 +92,7 @@ img{
     align-items: center;
 }
 
-a{
+.a-header{
     color: white;
     text-decoration: none;
     margin-right: 10%;
@@ -100,9 +100,29 @@ a{
     font-size: 20px;
 }
 
+.a-ft{
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+}
 
-i{
+
+.i-hd{
     padding: 5px;
+}
+
+.a-ft{
+    padding: 5px;
+}
+
+.i-ft{
+    padding-right: 5px;
+}
+
+h3{
+    padding-bottom: 10px;
+    font-weight: 300;
+    font-size: 1rem
 }
 
 /* Main */
@@ -263,6 +283,38 @@ i{
     line-height: 28px;
     text-align: center;
 }
+
+/* Footer */
+
+footer{
+    background-color: #1A1A1A ;
+}
+
+.footer-container{
+    height: 80px;
+    min-width: 74%;
+    padding-left: 13%;
+    padding-right: 13%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.boolando-container{
+    border: 2px dashed white;
+    height: 60px;
+    line-height: 25px;
+}
+
+.trovaci-container{
+    height: 60px;
+    color: white;
+    border: 2px dashed white;
+    text-align: center;
+}
+
+
+
 
 
 
