@@ -4,3 +4,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+.flex-container{
+    height: 80px;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar{
+    height: 60px;
+    min-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px dashed black;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+img{
+    height: 30px;
+}
+
+.genere{
+    height: 40px;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+i{
+    padding: 5px;
+}
+
+/* Utils */
+
+.flex{
+    display: flex;
+}
+
+.bg-orange{
+    background-color: #FF6900;
+}
+
+.border{
+    border: 2px dashed black;
+}
+
